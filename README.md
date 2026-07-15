@@ -1,8 +1,8 @@
 # knowledge-software-architecture
 
-![notes](https://img.shields.io/badge/notes-0-blue)
+![notes](https://img.shields.io/badge/notes-1-blue)
 ![deep dives](https://img.shields.io/badge/🔬_deep_dives-0-purple)
-![status](https://img.shields.io/badge/roadmap-planning-lightgrey)
+![status](https://img.shields.io/badge/roadmap-in_progress-yellow)
 
 軟體架構筆記：從架構思維與品質屬性取捨出發，經架構風格、DDD、分散式系統基礎，
 到可靠性與擴展性模式、架構決策與文件。談**模式與取捨**，不談特定產品的操作細節。
@@ -47,6 +47,7 @@ Docker/K8s 部署）與語言框架實作細節不在此 repo，由其他 `knowl
 | 筆記 | 深度 | 狀態 |
 |---|---|---|
 | 分層架構與它的邊界 | 🔰 | 📝 |
+| [分層物件家族：Entity、DO、DTO 的邊界在哪](02-architecture-styles/layered-object-family.md) | 🔰 | ✅ |
 | 六角架構與 Clean Architecture：依賴方向的翻轉 | 🔰 | 📝 |
 | 事件驅動架構：解耦的代價 | 🔰 | 📝 |
 | 單體 vs 微服務：什麼時候該拆 | 🔰 | 📝 |
