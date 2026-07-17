@@ -1,6 +1,6 @@
 # knowledge-software-architecture
 
-![notes](https://img.shields.io/badge/notes-1-blue)
+![notes](https://img.shields.io/badge/notes-8-blue)
 ![deep dives](https://img.shields.io/badge/🔬_deep_dives-0-purple)
 ![status](https://img.shields.io/badge/roadmap-in_progress-yellow)
 
@@ -38,19 +38,19 @@ Docker/K8s 部署）與語言框架實作細節不在此 repo，由其他 `knowl
 
 | 筆記 | 深度 | 狀態 |
 |---|---|---|
-| 什麼是軟體架構？架構師在決定什麼 | 🔰 | 📝 |
-| 品質屬性與取捨：沒有最好的架構，只有取捨 | 🔰 | 📝 |
-| 康威定律：組織結構如何形塑系統 | 🔰 | 📝 |
+| [什麼是軟體架構？架構師在決定什麼](01-architecture-thinking/what-is-software-architecture.md) | 🔰 | ✅ |
+| [品質屬性與取捨：沒有最好的架構，只有取捨](01-architecture-thinking/quality-attributes-and-tradeoffs.md) | 🔰 | ✅ |
+| [康威定律：組織結構如何形塑系統](01-architecture-thinking/conways-law.md) | 🔰 | ✅ |
 
 ### 02 - 架構風格
 
 | 筆記 | 深度 | 狀態 |
 |---|---|---|
-| 分層架構與它的邊界 | 🔰 | 📝 |
+| [分層架構與它的邊界](02-architecture-styles/layered-architecture-and-boundaries.md) | 🔰 | ✅ |
 | [分層物件家族：Entity、DO、DTO 的邊界在哪](02-architecture-styles/layered-object-family.md) | 🔰 | ✅ |
-| 六角架構與 Clean Architecture：依賴方向的翻轉 | 🔰 | 📝 |
-| 事件驅動架構：解耦的代價 | 🔰 | 📝 |
-| 單體 vs 微服務：什麼時候該拆 | 🔰 | 📝 |
+| [六角架構與 Clean Architecture：依賴方向的翻轉](02-architecture-styles/hexagonal-and-clean-architecture.md) | 🔰 | ✅ |
+| [事件驅動架構：解耦的代價](02-architecture-styles/event-driven-architecture.md) | 🔰 | ✅ |
+| [單體 vs 微服務：什麼時候該拆](02-architecture-styles/monolith-vs-microservices.md) | 🔰 | ✅ |
 
 ### 03 - DDD
 
@@ -87,8 +87,8 @@ Docker/K8s 部署）與語言框架實作細節不在此 repo，由其他 `knowl
 
 ## Roadmap
 
-- **近期**：01 架構思維 → 02 架構風格
-- **中期**：03 DDD → 04 分散式系統基礎
+- **近期**：01 架構思維（✅ 完成）→ 02 架構風格（✅ 完成）
+- **中期**：03 DDD（⬅ 下一步）→ 04 分散式系統基礎
 - **長期**：05 可靠性與擴展性模式 → 06 架構決策與文件
 
 ## 慣例
