@@ -41,8 +41,8 @@ Martin Fowler 在〈What do you mean by "Event-Driven"?〉（2017）中區分的
 
 事件驅動把同步呼叫的顯性失敗，換成了一組必須主動回答的問題——**每一題都沒有預設答案**：
 
-1. **重複**：訊息中介多半保證「至少一次」，訂閱者必然收到重複事件——冪等處理不是加分題（見規劃中的〈冪等性：重試安全的前提〉）。
-2. **丟失**：「寫庫成功、發事件失敗」的半途狀態怎麼辦——見規劃中的〈分散式交易：2PC、Saga 與 Outbox〉。
+1. **重複**：訊息中介多半保證「至少一次」，訂閱者必然收到重複事件——冪等處理不是加分題（見〈[冪等性：重試安全的前提](../04-distributed-basics/idempotency.md)〉）。
+2. **丟失**：「寫庫成功、發事件失敗」的半途狀態怎麼辦——見〈[分散式交易：2PC、Saga 與 Outbox](../04-distributed-basics/distributed-transactions.md)〉。
 3. **順序**：`OrderCancelled` 比 `OrderCreated` 先到，訂閱者會怎樣？
 4. **時差**：最終一致的「最終」是多久？業務方接受嗎——這是品質屬性問題，回到〈[品質屬性與取捨](../01-architecture-thinking/quality-attributes-and-tradeoffs.md)〉的追問法。
 

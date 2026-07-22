@@ -1,6 +1,6 @@
 # knowledge-software-architecture
 
-![notes](https://img.shields.io/badge/notes-11-blue)
+![notes](https://img.shields.io/badge/notes-15-blue)
 ![deep dives](https://img.shields.io/badge/🔬_deep_dives-0-purple)
 ![status](https://img.shields.io/badge/roadmap-in_progress-yellow)
 
@@ -64,10 +64,10 @@ Docker/K8s 部署）與語言框架實作細節不在此 repo，由其他 `knowl
 
 | 筆記 | 深度 | 狀態 |
 |---|---|---|
-| CAP 與 PACELC：被誤讀最多的定理 | 🔰 | 📝 |
-| 一致性模型：從強一致到最終一致 | 🔰 | 📝 |
-| 冪等性：重試安全的前提 | 🔰 | 📝 |
-| 分散式交易：2PC、Saga 與 Outbox | 🔰 | 📝 |
+| [CAP 與 PACELC：被誤讀最多的定理](04-distributed-basics/cap-and-pacelc.md) | 🔰 | ✅ |
+| [一致性模型：從強一致到最終一致](04-distributed-basics/consistency-models.md) | 🔰 | ✅ |
+| [冪等性：重試安全的前提](04-distributed-basics/idempotency.md) | 🔰 | ✅ |
+| [分散式交易：2PC、Saga 與 Outbox](04-distributed-basics/distributed-transactions.md) | 🔰 | ✅ |
 
 ### 05 - 可靠性與擴展性模式
 
@@ -88,8 +88,8 @@ Docker/K8s 部署）與語言框架實作細節不在此 repo，由其他 `knowl
 ## Roadmap
 
 - **近期**：01 架構思維（✅ 完成）→ 02 架構風格（✅ 完成）
-- **中期**：03 DDD（✅ 完成）→ 04 分散式系統基礎（⬅ 下一步）
-- **長期**：05 可靠性與擴展性模式 → 06 架構決策與文件
+- **中期**：03 DDD（✅ 完成）→ 04 分散式系統基礎（✅ 完成）
+- **長期**：05 可靠性與擴展性模式（⬅ 下一步）→ 06 架構決策與文件
 
 ## 慣例
 
