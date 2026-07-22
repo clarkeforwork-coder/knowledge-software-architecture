@@ -1,6 +1,6 @@
 # knowledge-software-architecture
 
-![notes](https://img.shields.io/badge/notes-8-blue)
+![notes](https://img.shields.io/badge/notes-11-blue)
 ![deep dives](https://img.shields.io/badge/🔬_deep_dives-0-purple)
 ![status](https://img.shields.io/badge/roadmap-in_progress-yellow)
 
@@ -56,9 +56,9 @@ Docker/K8s 部署）與語言框架實作細節不在此 repo，由其他 `knowl
 
 | 筆記 | 深度 | 狀態 |
 |---|---|---|
-| 戰略設計：Bounded Context 與 Context Map | 🔰 | 📝 |
-| 戰術設計：Aggregate、Entity 與 Value Object | 🔰 | 📝 |
-| 防腐層：與遺留系統共處 | 🔰 | 📝 |
+| [戰略設計：Bounded Context 與 Context Map](03-ddd/strategic-design-bounded-context.md) | 🔰 | ✅ |
+| [戰術設計：Aggregate、Entity 與 Value Object](03-ddd/tactical-design-aggregate.md) | 🔰 | ✅ |
+| [防腐層：與遺留系統共處](03-ddd/anti-corruption-layer.md) | 🔰 | ✅ |
 
 ### 04 - 分散式系統基礎
 
@@ -88,7 +88,7 @@ Docker/K8s 部署）與語言框架實作細節不在此 repo，由其他 `knowl
 ## Roadmap
 
 - **近期**：01 架構思維（✅ 完成）→ 02 架構風格（✅ 完成）
-- **中期**：03 DDD（⬅ 下一步）→ 04 分散式系統基礎
+- **中期**：03 DDD（✅ 完成）→ 04 分散式系統基礎（⬅ 下一步）
 - **長期**：05 可靠性與擴展性模式 → 06 架構決策與文件
 
 ## 慣例

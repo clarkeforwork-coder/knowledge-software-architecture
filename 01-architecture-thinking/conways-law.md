@@ -33,7 +33,7 @@
 - 想要清晰的服務邊界？讓每個服務有**唯一的擁有團隊**，團隊對齊業務能力（stream-aligned team），而不是對齊技術層。
 - 想要模組間低耦合？先確保團隊之間不需要天天開會才能出貨——**團隊的認知負荷與依賴關係，就是未來系統的耦合度**。
 
-服務邊界怎麼對齊業務能力，正是 DDD 戰略設計要回答的問題——見規劃中的〈戰略設計：Bounded Context 與 Context Map〉。
+服務邊界怎麼對齊業務能力，正是 DDD 戰略設計要回答的問題——見〈[戰略設計：Bounded Context 與 Context Map](../03-ddd/strategic-design-bounded-context.md)〉。
 
 ### 反過來也會發生：架構反噬組織
 
