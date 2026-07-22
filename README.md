@@ -1,6 +1,6 @@
 # knowledge-software-architecture
 
-![notes](https://img.shields.io/badge/notes-15-blue)
+![notes](https://img.shields.io/badge/notes-19-blue)
 ![deep dives](https://img.shields.io/badge/🔬_deep_dives-0-purple)
 ![status](https://img.shields.io/badge/roadmap-in_progress-yellow)
 
@@ -73,10 +73,10 @@ Docker/K8s 部署）與語言框架實作細節不在此 repo，由其他 `knowl
 
 | 筆記 | 深度 | 狀態 |
 |---|---|---|
-| 快取策略：Cache-Aside、雪崩、穿透與擊穿 | 🔰 | 📝 |
-| 訊息佇列模式：削峰、解耦與順序性 | 🔰 | 📝 |
-| 限流與熔斷：保護系統的兩道閘門 | 🔰 | 📝 |
-| Back-pressure：當下游跟不上 | 🔰 | 📝 |
+| [快取策略：Cache-Aside、雪崩、穿透與擊穿](05-reliability-patterns/cache-strategies.md) | 🔰 | ✅ |
+| [訊息佇列模式：削峰、解耦與順序性](05-reliability-patterns/message-queue-patterns.md) | 🔰 | ✅ |
+| [限流與熔斷：保護系統的兩道閘門](05-reliability-patterns/rate-limiting-and-circuit-breaker.md) | 🔰 | ✅ |
+| [Back-pressure：當下游跟不上](05-reliability-patterns/backpressure.md) | 🔰 | ✅ |
 
 ### 06 - 架構決策與文件
 
@@ -89,7 +89,7 @@ Docker/K8s 部署）與語言框架實作細節不在此 repo，由其他 `knowl
 
 - **近期**：01 架構思維（✅ 完成）→ 02 架構風格（✅ 完成）
 - **中期**：03 DDD（✅ 完成）→ 04 分散式系統基礎（✅ 完成）
-- **長期**：05 可靠性與擴展性模式（⬅ 下一步）→ 06 架構決策與文件
+- **長期**：05 可靠性與擴展性模式（✅ 完成）→ 06 架構決策與文件（⬅ 下一步）
 
 ## 慣例
 
