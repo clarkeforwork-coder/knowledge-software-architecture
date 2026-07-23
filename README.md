@@ -1,8 +1,8 @@
 # knowledge-software-architecture
 
-![notes](https://img.shields.io/badge/notes-19-blue)
+![notes](https://img.shields.io/badge/notes-21-blue)
 ![deep dives](https://img.shields.io/badge/🔬_deep_dives-0-purple)
-![status](https://img.shields.io/badge/roadmap-in_progress-yellow)
+![status](https://img.shields.io/badge/roadmap-complete-success)
 
 軟體架構筆記：從架構思維與品質屬性取捨出發，經架構風格、DDD、分散式系統基礎，
 到可靠性與擴展性模式、架構決策與文件。談**模式與取捨**，不談特定產品的操作細節。
@@ -82,14 +82,14 @@ Docker/K8s 部署）與語言框架實作細節不在此 repo，由其他 `knowl
 
 | 筆記 | 深度 | 狀態 |
 |---|---|---|
-| ADR：把「為什麼」留下來 | 🔰 | 📝 |
-| C4 模型：畫給人看的架構圖 | 🔰 | 📝 |
+| [ADR：把「為什麼」留下來](06-decisions-and-documentation/adr.md) | 🔰 | ✅ |
+| [C4 模型：畫給人看的架構圖](06-decisions-and-documentation/c4-model.md) | 🔰 | ✅ |
 
 ## Roadmap
 
-- **近期**：01 架構思維（✅ 完成）→ 02 架構風格（✅ 完成）
-- **中期**：03 DDD（✅ 完成）→ 04 分散式系統基礎（✅ 完成）
-- **長期**：05 可靠性與擴展性模式（✅ 完成）→ 06 架構決策與文件（⬅ 下一步）
+六章 🔰 訓練主軌**全部完成**（共 21 篇），每篇符合 [TEMPLATE.md](TEMPLATE.md) 五段結構、關鍵主張皆標注出處。六章連成一條敘事線：用改變成本辨認架構決策（01）→ 在風格光譜上取捨（02）→ 沿語言斷層劃邊界（03）→ 付分散式必答稅（04）→ 讓系統在過載與故障下活著（05）→ 把「為什麼」留給後人（06）。
+
+後續擴充方向：🔬 深入選修軌（論文追讀、公開事故報告分析）視需求增補，寧缺勿濫。
 
 ## 慣例
 
