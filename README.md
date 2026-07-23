@@ -1,7 +1,7 @@
 # knowledge-software-architecture
 
-![notes](https://img.shields.io/badge/notes-21-blue)
-![deep dives](https://img.shields.io/badge/🔬_deep_dives-0-purple)
+![notes](https://img.shields.io/badge/notes-22-blue)
+![deep dives](https://img.shields.io/badge/🔬_deep_dives-1-purple)
 ![status](https://img.shields.io/badge/roadmap-complete-success)
 
 軟體架構筆記：從架構思維與品質屬性取捨出發，經架構風格、DDD、分散式系統基礎，
@@ -68,6 +68,7 @@ Docker/K8s 部署）與語言框架實作細節不在此 repo，由其他 `knowl
 | [一致性模型：從強一致到最終一致](04-distributed-basics/consistency-models.md) | 🔰 | ✅ |
 | [冪等性：重試安全的前提](04-distributed-basics/idempotency.md) | 🔰 | ✅ |
 | [分散式交易：2PC、Saga 與 Outbox](04-distributed-basics/distributed-transactions.md) | 🔰 | ✅ |
+| [事故追讀：GitHub 2018-10-21——43 秒分區，24 小時債](04-distributed-basics/deep-github-2018-partition.md) | 🔬 | ✅ |
 
 ### 05 - 可靠性與擴展性模式
 
@@ -89,7 +90,7 @@ Docker/K8s 部署）與語言框架實作細節不在此 repo，由其他 `knowl
 
 六章 🔰 訓練主軌**全部完成**（共 21 篇），每篇符合 [TEMPLATE.md](TEMPLATE.md) 五段結構、關鍵主張皆標注出處。六章連成一條敘事線：用改變成本辨認架構決策（01）→ 在風格光譜上取捨（02）→ 沿語言斷層劃邊界（03）→ 付分散式必答稅（04）→ 讓系統在過載與故障下活著（05）→ 把「為什麼」留給後人（06）。
 
-後續擴充方向：🔬 深入選修軌（論文追讀、公開事故報告分析）視需求增補，寧缺勿濫。
+後續擴充方向：🔬 深入選修軌（論文追讀、公開事故報告分析）視需求增補，寧缺勿濫；已有 1 篇（GitHub 2018 分區事故追讀）。
 
 ## 慣例
 
